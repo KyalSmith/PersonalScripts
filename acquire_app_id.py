@@ -25,18 +25,7 @@ def Get_IDs():
 
         print(str(item)+":\t"+str(app_ids[item]))
 
-
-
-
-
-
-
-
-
-
-
-
-
+        
 
 if __name__=="__main__":
     Get_IDs()
