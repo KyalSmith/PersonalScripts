@@ -6,7 +6,7 @@ def Get_IDs():
 
     app_ids = {}
 
-    output = subprocess.check_output("curl -H \"x-api-key:b5bbcfadce5418c83069df1047f3f978c8e5d14a2a3838f\" -X GET \'https://api.newrelic.com/v2/applications.json\' ",shell=True)
+    output = subprocess.check_output("curl -H \"x-api-key: \" -X GET \'https://api.newrelic.com/v2/applications.json\' ",shell=True)
 
     output = output.decode()
 
